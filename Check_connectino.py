@@ -2,7 +2,7 @@ import mysql.connector
 
 ## is_connection() method returns a boolean value 
 ## True - if connection is established 
-## False -  if connection is not established 
+## False - if connection is not established 
 try : 
     conn = mysql.connector.connect(
         user = "root",
